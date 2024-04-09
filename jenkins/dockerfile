@@ -1,0 +1,4 @@
+FROM tomcat:0904
+COPY /home/jenkins/workspace/docker_project/target/hello-world-maven.war /usr/local/tomcat/webapps
+  
+  
