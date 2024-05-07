@@ -1,7 +1,7 @@
 FROM tomcat:latest
 RUN ls
 RUN pwd
-RUN apt-get -y install docker-ce
 
-COPY /home/admin123/Pruthvi/working_java /usr/local/tomcat/webapps
+
+COPY /home/admin123/Pruthvi/working_java/hello-world-maven.war /usr/local/tomcat/webapps
   
