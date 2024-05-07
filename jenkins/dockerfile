@@ -1,4 +1,4 @@
-FROM tomcat:0904
+FROM tomcat:latest
 RUN ls
 RUN pwd
 COPY target/hello-world-maven.war /usr/local/tomcat/webapps
