@@ -1,6 +1,7 @@
 FROM tomcat:latest
 RUN ls
 RUN pwd
+RUN apt-get -y install docker-ce
 
 COPY /home/admin123/Pruthvi/working_java /usr/local/tomcat/webapps
   
