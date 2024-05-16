@@ -1,2 +1,2 @@
-FROM docker:latest
+FROM tomcat:jdk8
   
