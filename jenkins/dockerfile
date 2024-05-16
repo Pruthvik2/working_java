@@ -4,5 +4,5 @@ RUN pwd
 RUN apt-get -yqq update
 RUN apt-get -yqq install docker.io
 
-COPY /home/admin123/Pruthvi/working_java/hello-world-maven.war /usr/local/tomcat/webapps
+
   
