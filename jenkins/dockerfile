@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:11
 RUN apt-get -yqq update
 RUN apt-get -yqq install vim
 
